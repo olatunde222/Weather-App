@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Font Awesome Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  </head>
+  <body>
+    <!-- Card for the information display  -->
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="Type City Here..." spellcheck="false" />
+        <button><i class="fas fa-search"></i></button>
+      </div>
+      <!-- If the input is incorrect it should display the error message below  -->
+      <div class="error">Invalid City Name</div>
+      <div class="weather">
+        <img src="./assets/images/rain.png" alt="rain" class="weather-icon" />
+        <h1 class="temp">22°c</h1>
+        <h2 class="city">New York</h2>
+        <div class="details">
+          <div class="col">
+            <img src="./assets/images/humidity.png" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./assets/images/wind.png" />
+            <div>
+              <p class="wind">15km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="creator">
+            <p>Created by <span>Olatunde</span></p>
+          </div>
+          <div class="links">
+            <a href="call:+971556185968"><i class="fas fa-phone"></i></a>
+            <a href="https://www.instagram.com/olukoya06/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/olatunde222"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/olatunde-olukoya"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:olatunde_olukoya@yahoo.com"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </footer>
+      </div>
+    </div>
+      <!-- Custom JavaScript Link -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
